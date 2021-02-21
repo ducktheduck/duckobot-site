@@ -55,7 +55,7 @@ ROOT_URLCONF = 'duckobot.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['./src/templates', 'templates'],
+        'DIRS': ['./src/templates', 'templates', '../'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
