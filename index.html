@@ -1,13 +1,24 @@
 <html>
 
+    {%load static%}
+
     <head>
-        <center>
-            <h1> duckcave </h1>
-            <h2> Central panel for duckobot </h2>
-        </center>
+
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "{% static "Style/style.css" %}" type = 'text/css'>
+
+        <h1 id = "title"> duckcave </h1>
+        <h2 id = "subtitle"> Central panel of <span id="duckobot-letter">duckobot</span></h2>
+
     </head>
 
+    <body>
+    
+        <p id = "bot-name">Name 🠚 <span id="botname-letter">{{name}} </span></p>
+        <p id = "bot-tag">Discriminator 🠚 <span id="bottag-letter">#{{tag}} </span></p>
+        <p id = "bot-guildSize">Guilds 🠚 <span id="botguildsize-letter">{{guildSize}} </span></p>
 
-
+    </body>
 
 </html>

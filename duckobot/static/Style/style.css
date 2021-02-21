@@ -1,0 +1,90 @@
+@font-face {
+    font-family: duckobotFont;
+    src: url(fallingskycond.otf);
+  }
+  
+html{
+    padding: 10px;
+    background-color: black;
+
+}
+
+#title{
+
+    text-align: center;
+    font-family: duckobotFont;
+    font-weight: 500;
+    font-size: 90px;
+    color: white;
+
+
+}
+#duckobot-letter{
+
+    color:#b51b1b;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+#duckobot-letter:hover{
+    color: #ab1a1a;
+}
+
+#subtitle{
+
+    text-align: center;
+    color: #e6e6e6;
+    font-family: duckobotFont;
+    font-weight: 100;
+    font-size: 45px;
+}
+
+#bot-name{
+
+    color: #e6e6e6;
+    font-family: duckobotFont;
+    font-weight: 200;
+    font-size: 25px; 
+    padding-left: 10px;
+}
+#botname-letter{
+
+    color:#eb3434;
+    font-size: 26px;
+    font-weight: 700;
+    
+}
+#bot-tag{
+
+    color: #e6e6e6;
+    font-family: duckobotFont;
+    font-weight: 200;
+    font-size: 25px; 
+    padding-left: 10px;
+}
+
+#bottag-letter{
+
+    color:#eb3434;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+#bot-guildsize{
+
+    color: #e6e6e6;
+    font-family: duckobotFont;
+    font-weight: 200;
+    font-size: 25px; 
+    padding-left: 10px;
+}
+
+#botguildsize-letter{
+
+    color:#eb3434;
+    font-size: 26px;
+    font-weight: 700;
+
+}
