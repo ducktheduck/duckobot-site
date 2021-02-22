@@ -11,7 +11,8 @@ def home_view(request, *args, **kwargs): # *args, **kwargs
 
         "name": response.get("name"),
         "tag": response.get("tag"),
-        "guildSize": response.get("guildSize")
+        "guildSize": response.get("guildSize"),
+        "botAvatar": response.get("botAvatar")
 
     }
 

@@ -5,12 +5,14 @@
   
 html{
     padding: 10px;
-    background-color: black;
+    background-color: #080808;
+    
 
 }
 
-#title{
 
+#title{
+    
     text-align: center;
     font-family: duckobotFont;
     font-weight: 500;
@@ -21,7 +23,7 @@ html{
 }
 #duckobot-letter{
 
-    color:#b51b1b;
+    color:#eb3434;
     font-size: 60px;
     font-weight: 700;
 
@@ -43,7 +45,7 @@ html{
 #bot-name{
 
     color: #e6e6e6;
-    font-family: duckobotFont;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 200;
     font-size: 25px; 
     padding-left: 10px;
@@ -58,7 +60,7 @@ html{
 #bot-tag{
 
     color: #e6e6e6;
-    font-family: duckobotFont;
+
     font-weight: 200;
     font-size: 25px; 
     padding-left: 10px;
@@ -75,7 +77,7 @@ html{
 #bot-guildsize{
 
     color: #e6e6e6;
-    font-family: duckobotFont;
+
     font-weight: 200;
     font-size: 25px; 
     padding-left: 10px;
