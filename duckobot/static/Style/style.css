@@ -1,101 +1,131 @@
-@font-face {
-    font-family: duckobotFont;
-    src: url(fallingskycond.otf);
-  }
-  
-html{
-    padding: 10px;
-    background-color: #080808;
+/** Fonts **/
+
+    @font-face {
+        font-family: duckobotFont;
+        src: url(fallingskycond.otf);
+    }
+
+/** Fonts **/
+
+
+/** Main parts**/
+
+
+    html{
+        background-color: #0f0f0f;
+        margin: 0 auto;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    body{
+
+        margin: 0 auto;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #background-wave{
+
+
+        max-width: 100%;
+        top: -90px;
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+
+    }
+/** Main parts**/
+
+
+/** Head **/
+
+    #logo{
+        margin: 0 auto;
+        padding: 0;
+        width: 10%;
+        left: 45%;
+        position: relative;
+
+
+    }
+
+    #title{
+        
+        text-align: center;
+        font-family: duckobotFont;
+        font-weight: 500;
+        font-size: 90px;
+        color: white;
+
+
+    }
+    #duckobot-letter{
+
+        color:#eb3434;
+        font-size: 60px;
+        font-weight: 700;
+
+    }
+
+    #duckobot-letter:hover{
+        color: #ab1a1a;
+        transition: ease-in-out 1s;
+        cursor: pointer;
+    }
+
+    #subtitle{
+
+        text-align: center;
+        color: #e6e6e6;
+        font-family: duckobotFont;
+        font-weight: 100;
+        font-size: 45px;
+    }
+
+/** Head **/
+
+
+/** Nav Bar **/
+
+    #ref{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: #e6e6e6;
+        font-weight: 200;
+        font-size: 25px; 
+        padding-left: 10px;
+        
+
+    }
+    ul {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+
+    }
+
+    li {
+        display: block;
+        display: inline;
+        padding-inline: 15px;
+        
+
+    }
+
+    a:hover{
+
+        transition: 0.1s;
+
+        font-size: 102%;
+        border-radius: 7px;
     
 
-}
+    }
 
-
-#title{
-    
-    text-align: center;
-    font-family: duckobotFont;
-    font-weight: 500;
-    font-size: 90px;
-    color: white;
-
-
-}
-#duckobot-letter{
-
-    color:#eb3434;
-    font-size: 60px;
-    font-weight: 700;
-
-}
-
-#duckobot-letter:hover{
-    color: #ab1a1a;
-}
-
-#subtitle{
-
-    text-align: center;
-    color: #e6e6e6;
-    font-family: duckobotFont;
-    font-weight: 100;
-    font-size: 45px;
-}
-
-#bot-name{
-
-    color: #e6e6e6;
-    font-family: monospace;
-    font-weight: 200;
-    font-size: 25px; 
-    padding-left: 10px;
-}
-#botname-letter{
-
-    color:#eb3434;
-    font-size: 26px;
-    font-weight: 700;
-    
-}
-#bot-tag{
-
-    color: #e6e6e6;
-
-    font-weight: 200;
-    font-size: 25px; 
-    padding-left: 10px;
-}
-
-#bottag-letter{
-
-    color:#eb3434;
-    font-size: 26px;
-    font-weight: 700;
-
-}
-
-#bot-guildsize{
-
-    color: #e6e6e6;
-
-    font-weight: 200;
-    font-size: 25px; 
-    padding-left: 10px;
-}
-
-#botguildsize-letter{
-
-    color:#eb3434;
-    font-size: 26px;
-    font-weight: 700;
-
-}
-
-
-#ref{
-    text-decoration: none;
-    color: #e6e6e6;
-    font-weight: 200;
-    font-size: 25px; 
-    padding-left: 10px;
-}
+/** Nav Bar **/
