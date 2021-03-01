@@ -45,7 +45,7 @@ html{
 #bot-name{
 
     color: #e6e6e6;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-weight: 200;
     font-size: 25px; 
     padding-left: 10px;
@@ -89,4 +89,13 @@ html{
     font-size: 26px;
     font-weight: 700;
 
+}
+
+
+#ref{
+    text-decoration: none;
+    color: #e6e6e6;
+    font-weight: 200;
+    font-size: 25px; 
+    padding-left: 10px;
 }
