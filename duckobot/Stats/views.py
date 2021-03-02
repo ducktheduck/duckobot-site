@@ -17,3 +17,13 @@ def home_view(request, *args, **kwargs): # *args, **kwargs
     }
 
     return render(request, "index.html", context) # string of HTML code
+
+
+def login_page(request, *args, **kwargs): # *args, **kwargs
+
+    
+    context = {
+
+    }
+
+    return render(request, "login.html", context) # string of HTML code
