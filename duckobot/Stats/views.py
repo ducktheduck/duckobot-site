@@ -27,3 +27,13 @@ def login_page(request, *args, **kwargs): # *args, **kwargs
     }
 
     return render(request, "login.html", context) # string of HTML code
+
+
+def spotify_page(request, *args, **kwargs): # *args, **kwargs
+
+    
+    context = {
+
+    }
+
+    return render(request, "spotify.html", context) # string of HTML code
